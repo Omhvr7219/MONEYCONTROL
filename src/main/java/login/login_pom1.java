@@ -26,13 +26,13 @@ public class login_pom1 {
 		
 	}
 	public void login_pom1_click_on_skip() {
-//	SKIPCLICK1.click();
+	SKIPCLICK1.click();
 		
-   	  CLICK.click();
+//   	  CLICK.click();
 	}
 	public void login_pom1_click_on_playnow(WebDriver driver) throws InterruptedException {
 		play_LOGINCLICK2.click();
-		Thread.sleep(3000);
+//		Thread.sleep(3000);
 		driver.switchTo().frame("myframe");
 	}
 	public void login_pom1_enter_UN(String UNM) {
